@@ -50,7 +50,10 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
-
+ .prev svg,
+ .next svg {
+     top:3px
+ }
 h1,
 h2,
 h3,
@@ -167,8 +170,8 @@ a.pure-button-primary {
   background: #ffffff;
 }
 
-.mask{
-    text-align: center; 
+.mask {
+  text-align: center;
 }
 
 .splash-container {
@@ -242,7 +245,7 @@ a.pure-button-primary {
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
   font-size: 30px;
-  margin: 2em 0 1em;
+  margin: 2em 0 0.6em;
   color: #260147;
 }
 
@@ -283,6 +286,15 @@ ol li span {
   margin-right: 10px;
 }
 
+ol li p {
+  display: flex;
+}
+
+.work {
+  height: 82px;
+  width: 100%;
+}
+
 /* ol li::before {
   content: counter(item) ".";
   color: #f56523;
@@ -307,7 +319,7 @@ ol li span {
 }
 
 .example-wrapper {
-  margin: 13px;
+  margin: 13px 13px 25px 0px;
 }
 
 .feature:nth-child(even) {
@@ -354,6 +366,7 @@ ol li span {
 .contact-us {
   border-radius: 4px;
   box-shadow: 0 0 6px 0 #9b9b9b;
+  margin: 25px 0 45px 0 ; 
 }
 
 .contact-details .entry {
@@ -384,7 +397,7 @@ ol li span {
 .logo-wrapper {
   border: solid 1px #dedcdc;
   height: 100%;
-  margin: 13px;
+  margin: 0 13px 26px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -444,7 +457,7 @@ ol li span {
   }
 
   .content {
-      padding: 0 38px; 
+    padding: 0 38px;
   }
   .pattern {
     height: 300px;
@@ -457,18 +470,18 @@ ol li span {
   .content-wrapper {
     width: 100%;
   }
-  
+
   ol li p span {
-    display: block; 
-  }
-  
-  .work {
-    height:82px; 
-    width: 100%; 
+    display: block;
   }
 
-.example-wrapper {
-    margin: 0; 
+  .work {
+    height: 82px;
+    width: 100%;
+  }
+
+  .example-wrapper {
+    margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -496,17 +509,15 @@ ol li span {
     margin-top: 20px;
   }
 
-  .contact-us{
-      box-shadow: none; 
-  }
+  .contact-us {
+    margin: 0 -50px 70px; 
+}
 
   .copyright {
     margin-right: 20px;
   }
 
-  .logo-wrapper{
-      margin: 0 13px 13px 0; 
-  }
+
   .prev,
   .next {
     display: none;
