@@ -239,8 +239,8 @@ a.pure-button-primary {
   z-index: 5;
 }
 .work {
-  margin: 0 auto; 
-  display: block; 
+  margin: 0 auto;
+  display: block;
   width: 30%;
 }
 .splash-head {
@@ -391,16 +391,14 @@ ol li span {
   box-shadow: 0 0 6px 0 #9b9b9b;
 }
 
-.contact-details .entry{
-    display: flex; 
-    flex-direction: row; 
-   
-  }
+.contact-details .entry {
+  display: flex;
+  flex-direction: row;
+}
 
 .contact-details .entry img {
-    margin: 20px 13px 0 0;  
-    align-self: flex-start; 
-    
+  margin: 20px 13px 0 0;
+  align-self: flex-start;
 }
 
 .send-feedback {
@@ -431,6 +429,17 @@ ol li span {
   margin: 30px;
 }
 
+#submit-success {
+  background-color: rgba(126, 211, 33, 0.1);
+  border: 1px solid #417505;
+  border-radius: 4px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  height: 250px; 
+}
+
 /* This is the class used for the footer */
 .footer {
   background: #260147;
@@ -452,6 +461,7 @@ ol li span {
 .copyright {
   float: right;
 }
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -521,8 +531,8 @@ ol li span {
   }
 
   .header .buttons {
-      position: absolute; 
-      float: right;
+    position: absolute;
+    float: right;
   }
 
   .pattern {
@@ -532,7 +542,7 @@ ol li span {
   .buttons {
     right: 50px;
     float: none;
-    margin-right: 30px; 
+    margin-right: 30px;
   }
 
   .buttons button {
@@ -541,7 +551,7 @@ ol li span {
     font-weight: 200;
     font-size: 16px;
     margin: 0 12px;
-    padding: 0; 
+    padding: 0;
     background: rgba(0, 0, 0, 0) !important;
     color: #ffffff !important;
   }
@@ -589,7 +599,6 @@ ol li span {
   .contact-us h3 {
     font-size: 24px;
   }
-
 
   .l-box-lrg {
     padding: 1em;
