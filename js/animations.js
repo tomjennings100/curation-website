@@ -22,7 +22,7 @@ $(document).ready(() => {
       company: data[3]["value"]
     };
     $.post({
-      url: "https://formspree.io/xgyqjdbx",
+      url: "https://formspree.io/xjrznggx",
       data: data,
       dataType: "json"
     }).then(res => {
