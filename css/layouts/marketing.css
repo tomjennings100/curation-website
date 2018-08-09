@@ -46,38 +46,6 @@
   }
 }
 
-#spiral-1 {
-  animation: rotate 13s ease alternate-reverse;
-  transform-origin: 0px -300px;
-  animation-delay: 2s;
-}
-
-#spiral-2 {
-  animation: rotate 8s ease alternate-reverse;
-  transform-origin: 0px -200px;
-  animation-delay: 2s;
-}
-
-#spiral-3 {
-  animation: rotate 12s ease alternate-reverse;
-  transform-origin: 0px -100px;
-  animation-delay: 2s;
-}
-#spiral-4 {
-  animation: rotate 11s ease alternate-reverse;
-  transform-origin: 0px -200px;
-  animation-delay: 2s;
-}
-#spiral-5 {
-  animation: rotate 9s ease alternate-reverse;
-  transform-origin: 0px -900px;
-  animation-delay: 2s;
-}
-#spiral-6 {
-  animation: rotate 7s ease alternate-reverse;
-  transform-origin: 0px -800px;
-  animation-delay: 2s;
-}
 
 /*
  * -- BASE STYLES --
