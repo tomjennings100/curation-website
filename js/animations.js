@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   console.log(multiSlides);
 
   lory(multiSlides, {
-    infinite: 2,
-    slidesToScroll: 2
+    infinite: 1,
+    slidesToScroll: 1
   });
 });
 

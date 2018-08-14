@@ -5,46 +5,7 @@
   font-family: "Lato", sans-serif;
 }
 
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-    /* transform-origin: 0px;  */
-  }
-}
 
-@-webkit-keyframes bg {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
-}
-@-moz-keyframes bg {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
-}
-@keyframes bg {
-  0% {
-    background-position: 51% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 51% 0%;
-  }
-}
 
 /*
  * -- BASE STYLES --
@@ -151,7 +112,7 @@ a.pure-button-primary {
   right: 0;
 }
 
-.buttons button {
+.buttons a {
   width: 145px;
   height: 45px;
   border-radius: 4px;
@@ -159,6 +120,7 @@ a.pure-button-primary {
   font-weight: 200;
   font-size: 16px;
   margin: 0 12px;
+  line-height: 24px; 
 }
 
 .buttons .login {
@@ -594,7 +556,7 @@ ol li p {
     margin-right: 30px;
   }
 
-  .buttons button {
+  .buttons a {
     width: 43px;
     border: none;
     font-weight: 200;
